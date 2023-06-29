@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Радиостанции</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🤟🏿🤠 Работу выполнил Аль Шайр Роман 🤠🤟🏿</h1>
+    <h1>Выберите страну и жанр</h1>
+    <select id="country"></select>
+
+    <select id="genre">
+      <option value="alternative">Alternative</option>
+      <option value="blues">Blues</option>
+      <option value="classic">Classic</option>
+      <option value="country">Country</option>
+      <option value="dance">Dance</option>
+      <option value="electronic">Electronic</option>
+      <option value="hip-hop">Hip-Hop</option>
+      <option value="jazz">Jazz</option>
+      <option value="latin">Latin</option>
+      <option value="pop">Pop</option>
+      <option value="rap">Rap</option>
+      <option value="rock">Rock</option>
+    </select>
+
+    <button class="btn" onclick="showRadioStations()">
+      Показать радиостанции
+    </button>
+
+    <div id="radioList"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

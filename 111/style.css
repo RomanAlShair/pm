@@ -1,0 +1,54 @@
+/* Стилевые свойства для всех элементов */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d1c6c6;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #231458;
+}
+
+select,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(139, 57, 57);
+  color: #fff;
+}
+
+.btn {
+  border-radius: 5px;
+
+  background-color: #664caf;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #6c45a0;
+}
+
+#radioList {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
